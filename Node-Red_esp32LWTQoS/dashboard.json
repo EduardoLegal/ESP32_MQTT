@@ -1,0 +1,29 @@
+[
+    {
+        "id": "17b910c3cf156790",
+        "type": "change",
+        "z": "3ad99f2c8cf81c85",
+        "name": "Offline",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Offline",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 730,
+        "y": 500,
+        "wires": [
+            [
+                "21df7fcc9c072222"
+            ]
+        ]
+    }
+]
